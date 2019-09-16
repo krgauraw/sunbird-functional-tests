@@ -19,7 +19,7 @@ import java.util.Map;
  */
 public class ReadContentTest extends BaseCitrusTestRunner {
 
-    private static final String TEMPLATE_DIR = "templates/content/v3";
+    private static final String TEMPLATE_DIR = "templates/content/v3/read";
 
     @Test(dataProvider = "readResourceContent")
     @CitrusParameters({"testName", "requestUrl", "httpStatusCode", "userType","valParams","mimeType"})

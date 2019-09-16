@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.upload",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "VALIDATOR_ERROR",
+    "status": "failed",
+    "errmsg": "Error! Content exceeds the file size limit. | [Content Package file size is too large]"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

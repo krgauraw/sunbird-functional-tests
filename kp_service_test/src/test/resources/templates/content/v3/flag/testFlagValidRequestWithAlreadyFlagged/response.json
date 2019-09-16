@@ -1,0 +1,16 @@
+{
+    "id": "@ignore@",
+    "ver": "@ignore@",
+    "ts": "@ignore@",
+    "params": {
+        "resmsgid": "@ignore@",
+        "msgid": null,
+        "err": null,
+        "status": "successful",
+        "errmsg": null
+    },
+    "responseCode": "OK",
+    "result": {
+
+    }
+}

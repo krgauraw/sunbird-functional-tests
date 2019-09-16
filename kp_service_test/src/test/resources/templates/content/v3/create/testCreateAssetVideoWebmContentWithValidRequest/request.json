@@ -1,0 +1,12 @@
+{
+  "request": {
+    "content": {
+      "identifier":"${contentIdVal}",
+      "name": "KP Integration Test Asset",
+      "code": "kp.ft.asset.video.webm",
+      "mimeType": "video/webm",
+      "contentType": "Asset",
+      "mediaType": "video"
+    }
+  }
+}

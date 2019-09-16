@@ -1,0 +1,17 @@
+{
+  "id": "ekstep.content.accept.flag",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": "@ignore@",
+    "err": "@ignore@",
+    "status": "successful",
+    "errmsg": "@ignore@"
+  },
+  "responseCode": "OK",
+  "result": {
+    "node_id": "@ignore@",
+    "versionKey": "@ignore@"
+  }
+}

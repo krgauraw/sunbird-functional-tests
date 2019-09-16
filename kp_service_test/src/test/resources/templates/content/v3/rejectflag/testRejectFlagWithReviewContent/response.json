@@ -1,0 +1,14 @@
+{
+  "id": "rejectFlaggedContent_V3",
+  "ver": "2.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "ERR_CONTENT_NOT_FLAGGED",
+    "status": "failed",
+    "errmsg": "Content ${contentIdVal} is not flagged to reject"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ekstep.learning.content.publish",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "publishStatus": "Publish Operation for Content Id '${collectionIdVal}' Started Successfully!",
+    "node_id": "${collectionIdVal}"
+  }
+}

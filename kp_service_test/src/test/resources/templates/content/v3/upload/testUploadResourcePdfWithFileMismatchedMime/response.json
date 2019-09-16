@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.upload",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "INVALID_FILE",
+    "status": "failed",
+    "errmsg": "Error! Invalid File Extension.Uploaded file is not a pdf file"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

@@ -1,0 +1,10 @@
+{
+  "request": {
+    "content": {
+      "identifier":"${contentIdVal}",
+      "code": "kp.ft.resource.pdf",
+      "mimeType": "application/pdf",
+      "contentType":"Resource"
+    }
+  }
+}

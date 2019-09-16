@@ -1,0 +1,39 @@
+{
+  "request": {
+    "data": {
+      "nodesModified": {
+        "${collectionIdVal}":{
+          "isNew": false,
+          "root": true,
+          "metadata": {}
+        },
+        "2cb4d698-dc19-4f0c-9990-96f49daff753": {
+          "isNew": true,
+          "root": false,
+          "metadata": {
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "contentType": "${contentTypeVal}",
+            "code": "citrus:concat('unit_code_', citrus:randomNumber(10))",
+            "name": "citrus:concat('Test_${contentTypeVal}_name_', citrus:randomNumber(10))",
+            "description": "citrus:concat('Test_${contentTypeVal}_desc_', citrus:randomNumber(10))"
+          }
+        }
+      },
+      "hierarchy": {
+        "${collectionIdVal}": {
+          "contentType": "${collectionTypeVal}",
+          "children": [
+            "2cb4d698-dc19-4f0c-9990-96f49daff753"
+          ],
+          "root": true
+        },
+        "2cb4d698-dc19-4f0c-9990-96f49daff753": {
+          "contentType": "${contentTypeVal}",
+          "children": ["${resourceIdVal}"],
+          "root": false
+        }
+
+      }
+    }
+  }
+}

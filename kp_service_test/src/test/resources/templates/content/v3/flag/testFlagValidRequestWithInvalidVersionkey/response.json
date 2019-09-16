@@ -1,0 +1,15 @@
+{
+    "id": "@ignore@",
+    "ver": "@ignore@",
+    "ts": "@ignore@",
+    "params": {
+        "resmsgid": "@ignore@",
+        "msgid": null,
+        "err": "ERR_STALE_VERSION_KEY",
+        "status": "failed",
+        "errmsg": "Error! Invalid Data Version Key. | [Unable to Update the Data.]"
+    },
+    "responseCode": "CLIENT_ERROR",
+    "result": {
+    }
+}

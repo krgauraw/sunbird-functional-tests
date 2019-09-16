@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "code": "kp.code.plugin",
+      "mimeType": "application/vnd.ekstep.plugin-archive",
+      "contentType":"Plugin"
+    }
+  }
+}

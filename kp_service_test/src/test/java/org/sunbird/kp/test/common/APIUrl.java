@@ -30,4 +30,11 @@ public class APIUrl {
     public static final String RESERVE_DIAL_CONTENT = "/content/v3/dialcode/reserve/";
     public static final String RELEASE_DIAL_CONTENT = "/content/v3/dialcode/release/";
 
+    //Search API
+    public static final String COMPOSITE_SEARCH = "/v3/search";
+
+    //DIAL Api's
+    public static final String GENERATE_DIALCODE = "/dialcode/v3/generate";
+    public static final String SEARCH_DIALCODE = "/dialcode/v3/search";
+
 }

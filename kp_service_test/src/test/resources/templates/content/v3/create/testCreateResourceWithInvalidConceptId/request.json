@@ -1,0 +1,14 @@
+{
+  "request": {
+    "content": {
+      "name": "Course",
+      "contentType": "Resource",
+      "code": "citrus:Code",
+      "mimeType": "application/pdf",
+      "concepts":[
+        {
+          "identifier":"LO5322"
+        }]
+    }
+  }
+}

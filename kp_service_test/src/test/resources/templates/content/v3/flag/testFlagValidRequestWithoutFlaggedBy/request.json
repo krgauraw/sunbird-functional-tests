@@ -1,0 +1,7 @@
+{
+  "request": {
+      "flagReasons":["Copyright Violation"],
+      "versionKey": "${versionKeyVal}",
+      "flags": ["kp-flags", "newKp-flags"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.upload",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "VALIDATOR_ERROR",
+    "status": "failed",
+    "errmsg": "Error! Invalid Content Package File Structure. | ['index' file and other folders (assets, data & widgets) should be at root location]"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

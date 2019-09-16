@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "name": "kP TEST OBJECT",
+      "code": "kp.code.plugin",
+      "mimeType": "application/vnd.ekstep.plugin-archive"
+    }
+  }
+}

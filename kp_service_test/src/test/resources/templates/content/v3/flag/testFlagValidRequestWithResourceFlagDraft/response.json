@@ -1,0 +1,18 @@
+{
+  "id": "@ignore@",
+  "ver": "@ignore@",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "ERR_CONTENT_NOT_FLAGGABLE",
+    "status": "failed",
+    "errmsg": "@ignore@"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {
+    
+  }
+}
+
+

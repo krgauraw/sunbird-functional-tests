@@ -1,0 +1,17 @@
+{
+  "id": "ekstep.learning.content.update",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "status": "failed",
+    "err": "ERR_GRAPH_UPDATE_NODE_VALIDATION_FAILED",
+    "errmsg": "Node Metadata validation failed"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {
+    "node_id": "${contentIdVal}",
+    "messages" : "@ignore@"
+  }
+}

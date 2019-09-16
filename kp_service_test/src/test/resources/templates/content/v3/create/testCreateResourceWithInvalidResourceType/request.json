@@ -1,0 +1,11 @@
+{
+  "request": {
+    "content": {
+      "name": "Course",
+      "contentType": "Course",
+      "code": "citrus:Code",
+      "mimeType": "application/pdf",
+      "resourceType":"New"
+    }
+  }
+}

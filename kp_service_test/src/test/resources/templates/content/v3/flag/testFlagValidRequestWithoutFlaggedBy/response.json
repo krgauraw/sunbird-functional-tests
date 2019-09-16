@@ -1,0 +1,14 @@
+{
+    "id": "@ignore@",
+    "ver": "@ignore@",
+    "ts": "@ignore@",
+    "params": {
+        "resmsgid": "@ignore@",
+        "msgid": null,
+        "err": "ERR_GRAPH_INVALID_PROPERTY",
+        "status": "failed",
+        "errmsg": "Invalid data type for the property: flaggedBy"
+    },
+    "responseCode": "CLIENT_ERROR",
+    "result": {}
+}

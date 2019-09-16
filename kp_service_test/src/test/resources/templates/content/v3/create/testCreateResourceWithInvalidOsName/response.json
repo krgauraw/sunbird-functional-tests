@@ -1,0 +1,18 @@
+{
+  "id": "ekstep.learning.content.create",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "ERR_GRAPH_ADD_NODE_VALIDATION_FAILED",
+    "status": "failed",
+    "errmsg": "Validation Errors"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {
+    "messages": [
+      "Metadata os should be a list of values from: [All, Android, iOS, Windows]"
+    ]
+  }
+}

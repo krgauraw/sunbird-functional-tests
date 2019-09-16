@@ -1,0 +1,8 @@
+{
+  "request": {
+    "content": {
+      "status": "Live",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

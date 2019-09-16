@@ -1,0 +1,11 @@
+{
+  "request": {
+    "content": {
+      "identifier":"${contentIdVal}",
+      "name": "KP Integration Test Content",
+      "code": "kp.ft.resource.video.mpeg",
+      "mimeType": "video/mpeg",
+      "contentType":"Resource"
+    }
+  }
+}

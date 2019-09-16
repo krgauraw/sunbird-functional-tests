@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "description": "KP-Updated description ecml",
+      "versionKey": "${versionKeyVal}",
+      "reservedDialcodes": "km1900"
+    }
+  }
+}

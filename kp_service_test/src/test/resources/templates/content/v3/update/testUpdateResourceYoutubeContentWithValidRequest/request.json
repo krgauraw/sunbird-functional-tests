@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "name": "KP-Updated-Youtube",
+      "description": "KP-Updated description Youtube",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

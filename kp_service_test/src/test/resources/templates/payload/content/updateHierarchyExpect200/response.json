@@ -1,0 +1,19 @@
+{
+    "id": "content.hierarchy.update",
+    "ver": "3.0",
+    "ts": "@ignore@",
+    "params": {
+        "resmsgid": "@ignore@",
+        "msgid": null,
+        "err": null,
+        "status": "successful",
+        "errmsg": null
+    },
+    "responseCode": "OK",
+    "result": {
+        "content_id": "@ignore@",
+        "identifiers": {
+            "@ignore@": "@ignore@"
+        }
+    }
+}

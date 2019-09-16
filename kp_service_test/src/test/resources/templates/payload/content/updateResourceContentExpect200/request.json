@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "versionKey": "${versionKeyVal}",
+      "name": "KP-Updated-Name",
+      "description": "KP-Updated Description"
+    }
+  }
+}

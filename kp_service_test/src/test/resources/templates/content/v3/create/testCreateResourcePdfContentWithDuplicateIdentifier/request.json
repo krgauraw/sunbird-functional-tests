@@ -1,0 +1,11 @@
+{
+  "request": {
+    "content": {
+      "identifier":"${identifierVal}",
+      "name": "KP Integration Test Content",
+      "code": "kp.ft.resource.pdf",
+      "mimeType": "application/pdf",
+      "contentType":"Resource"
+    }
+  }
+}

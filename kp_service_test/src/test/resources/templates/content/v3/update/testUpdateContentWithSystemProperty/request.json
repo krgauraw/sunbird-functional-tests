@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "IL_SYSTEM_TAGS_KEY": ["Science", "Best Course"],
+      "description": "KP-Updated description ecml",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "ekstep.learning.content.publish",
+    "ver": "3.0",
+    "ts": "@ignore@",
+    "params": {
+        "resmsgid": "@ignore@",
+        "msgid": null,
+        "err": "ERR_TAXONOMY_INVALID_CONTENT",
+        "status": "failed",
+        "errmsg": "Error! While Fetching the Content for Operation | [Content Id: inValidId]"
+    },
+    "responseCode": "CLIENT_ERROR",
+    "result": {}
+}

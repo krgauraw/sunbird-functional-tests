@@ -1,0 +1,15 @@
+{
+    "id": "@ignore@",
+    "ver": "@ignore@",
+    "ts": "@ignore@",
+    "params": {
+        "resmsgid": "@ignore@",
+        "msgid": null,
+        "err": "BLANK_VERSION",
+        "status": "failed",
+        "errmsg": "Error! Version Key cannot be Blank. | [Node Id: ${contentIdVal}]"
+    },
+    "responseCode": "CLIENT_ERROR",
+    "result": {
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "request": {
+    "content": {
+      "mimeType": "application/epub",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

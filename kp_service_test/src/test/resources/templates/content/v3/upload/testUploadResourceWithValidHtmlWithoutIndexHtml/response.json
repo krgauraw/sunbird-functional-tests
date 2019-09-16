@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.upload",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "ERR_CONTENT_UPLOAD_FILE",
+    "status": "failed",
+    "errmsg": "Zip file doesn't have required files."
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

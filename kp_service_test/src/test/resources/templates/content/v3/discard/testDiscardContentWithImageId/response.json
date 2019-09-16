@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.discard",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "status": "failed",
+    "err": "@ignore@",
+    "errmsg": "@ignore@"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": "@ignore@"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.create",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "CONSTRAINT_VALIDATION_FAILED",
+    "status": "failed",
+    "errmsg": "Object already exists with identifier: ${identifierVal}"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

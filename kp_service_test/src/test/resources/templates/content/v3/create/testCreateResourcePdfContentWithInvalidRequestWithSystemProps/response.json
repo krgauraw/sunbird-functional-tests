@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.create",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "ERR_GRAPH_INVALID_PROPERTY",
+    "status": "failed",
+    "errmsg": "IL_UNIQUE_ID is a reserved system property"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

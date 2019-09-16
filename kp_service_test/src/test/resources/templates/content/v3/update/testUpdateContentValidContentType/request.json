@@ -1,0 +1,8 @@
+{
+  "request": {
+    "content": {
+      "contentType": "Asset",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ekstep.learning.content.upload",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": null,
+    "status": "successful",
+    "errmsg": null
+  },
+  "responseCode": "OK",
+  "result": {
+    "content_url": "@ignore@",
+    "node_id": "${contentIdVal}",
+    "versionKey": "@ignore@"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ekstep.content.accept.flag",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": "@ignore@",
+    "err": "ERR_TAXONOMY_INVALID_CONTENT",
+    "status": "failed",
+    "errmsg": "Invalid Flagged Content! Content Can Not Be Accepted."
+  },
+  "responseCode": "CLIENT_ERROR",
+    "result": {}
+}
+

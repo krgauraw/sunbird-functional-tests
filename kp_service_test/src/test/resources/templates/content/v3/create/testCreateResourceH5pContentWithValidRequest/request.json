@@ -1,0 +1,11 @@
+{
+  "request": {
+    "content": {
+      "identifier":"${contentIdVal}",
+      "name": "KP Integration Test Content",
+      "code": "kp.ft.resource.h5p",
+      "mimeType": "application/vnd.ekstep.h5p-archive",
+      "contentType":"Resource"
+    }
+  }
+}

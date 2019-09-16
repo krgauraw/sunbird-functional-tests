@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "name": "KP TEST object",
+      "code": "kp.code.plugin",
+      "contentType":"Plugin"
+    }
+  }
+}

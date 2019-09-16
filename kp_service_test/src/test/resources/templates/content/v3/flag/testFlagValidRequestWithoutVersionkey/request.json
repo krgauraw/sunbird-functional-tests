@@ -1,0 +1,7 @@
+{
+  "request": {
+      "flagReasons":["Copyright Violation"],
+      "flaggedBy":"KP-Tester",
+      "flags": ["kp-flags", "newKp-flags"]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "request": {
+    "content": {
+      "contentType": "Kp-Invalid-Content-Type",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

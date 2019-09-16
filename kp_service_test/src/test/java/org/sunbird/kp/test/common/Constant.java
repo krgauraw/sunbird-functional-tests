@@ -18,6 +18,8 @@ public class Constant {
 
     //Test Client Constants
     public static final String KP_ENDPOINT = "kpRestClient";
+    public static final String KP_SEARCH_SERVICE_ENDPOINT = "kpSearchServiceClient";
+    public static final String KP_DIAL_SERVICE_ENDPOINT = "kpDIALServiceClient";
     public static final String KEYCLOAK_ENDPOINT = "keycloakTestClient";
 
     // Request Constants
@@ -32,8 +34,8 @@ public class Constant {
     public static final String CONTENT_TYPE_COLLECTION="Collection";
 
 
-    public static final int ES_SYNC_WAIT_TIME = 5000;
-    public static final int PUBLISH_WAIT_TIME = 10000;
+    public static final int ES_SYNC_WAIT_TIME = 10000;
+    public static final int PUBLISH_WAIT_TIME = 20000;
 
     public static final String CREATOR = "Creator";
     public static final String REVIEWER = "Reviewer";

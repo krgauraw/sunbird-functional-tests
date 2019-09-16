@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "name": "KP-Updated-H5p",
+      "description": "KP-Updated description H5p",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

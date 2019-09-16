@@ -1,0 +1,9 @@
+{
+  "request": {
+    "content": {
+      "mimeType": "application/pdf",
+      "mediaType": "video",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

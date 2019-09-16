@@ -1,0 +1,14 @@
+{
+  "id": "ekstep.learning.content.upload",
+  "ver": "3.0",
+  "ts": "@ignore@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "ERR_CONTENT_WP_JSON_PARSE_ERROR",
+    "status": "failed",
+    "errmsg": "@ignore@"
+  },
+  "responseCode": "CLIENT_ERROR",
+  "result": {}
+}

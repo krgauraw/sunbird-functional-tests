@@ -1,0 +1,8 @@
+{
+  "request": {
+    "content": {
+      "framework": "NCFCOPY",
+      "versionKey": "${versionKeyVal}"
+    }
+  }
+}

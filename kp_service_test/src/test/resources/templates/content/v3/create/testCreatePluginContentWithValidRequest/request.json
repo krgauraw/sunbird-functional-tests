@@ -1,0 +1,10 @@
+{
+  "request": {
+    "content": {
+      "name": "KP Integration Test Plugin",
+      "code": "${contentIdVal}",
+      "mimeType": "application/vnd.ekstep.plugin-archive",
+      "contentType":"Plugin"
+    }
+  }
+}
