@@ -1,0 +1,50 @@
+{
+  "id" : "ekstep.learning.content.hierarchy",
+  "ver" : "3.0",
+  "ts" : "@matchesDatePattern('yyyy-MM-dd')@",
+  "params" : {
+    "resmsgid" : "@ignore@",
+    "msgid" : null,
+    "err" : null,
+    "status" : "successful",
+    "errmsg" : null
+  },
+  "responseCode" : "OK",
+  "result" : {
+    "content" : {
+      "ownershipType" : [ "createdBy" ],
+      "parent" : "@ignore@",
+      "code" : "kp.ft.collection.textbook",
+      "channel" : "channel-01",
+      "description" : "KP Integration Test Collection Content",
+      "language" : [ "English" ],
+      "mimeType" : "application/vnd.ekstep.content-collection",
+      "idealScreenSize" : "normal",
+      "createdOn" : "@matchesDatePattern('yyyy-MM-dd')@",
+      "objectType" : "Content",
+      "contentDisposition" : "inline",
+      "lastUpdatedOn" : "@matchesDatePattern('yyyy-MM-dd')@",
+      "contentEncoding" : "gzip",
+      "contentType" : "TextBook",
+      "dialcodeRequired" : "No",
+      "identifier" : "KP_FT_1578373926608",
+      "audience" : [ "Learner" ],
+      "lastStatusChangedOn" : "@matchesDatePattern('yyyy-MM-dd')@",
+      "visibility" : "Default",
+      "os" : [ "All" ],
+      "consumerId" : "@ignore@",
+      "index" : null,
+      "mediaType" : "content",
+      "osId" : "org.ekstep.quiz.app",
+      "version" : "@isNumber()@",
+      "versionKey" : "@ignore@",
+      "license" : "CC BY 4.0",
+      "idealScreenDensity" : "hdpi",
+      "depth" : 0,
+      "framework" : "NCF",
+      "compatibilityLevel" : "@isNumber()@",
+      "name" : "KP Integration Test Collection Content",
+      "status" : "Draft"
+    }
+  }
+}

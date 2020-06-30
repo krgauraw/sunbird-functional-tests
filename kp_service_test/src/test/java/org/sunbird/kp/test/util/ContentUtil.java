@@ -1076,6 +1076,8 @@ public class ContentUtil {
                 put("AcceptFlag", () -> ContentUtil.acceptFlagContent(runner, null, null, contentId, headers));
                 put("RejectFlag", () -> ContentUtil.rejectFlagContent(runner, null, contentId, headers));
                 put("Get", () -> ContentUtil.readCollectionHierarchy(runner, contentId));
+                put("Create", () -> ContentUtil.readCollectionHierarchy(runner, contentId));
+                put("Review", () -> ContentUtil.reviewContent(runner, payload, testName, contentId, headers));
             }
         };
     }

@@ -27,6 +27,7 @@ public class BaseCitrusTestRunner extends TestNGCitrusTestRunner {
     public static final String REQUEST_JSON = "request.json";
     public static final String RESPONSE_JSON = "response.json";
     public static final String VALIDATE_JSON = "validate.json";
+    public static final String RESPONSE_JSON_IMAGE = "response_image.json";
 
     private static final String API_KEY = AppConfig.config.getString("kp_api_key");
     private static final Boolean IS_USER_AUTH_REQUIRED = AppConfig.config.getBoolean("user_auth_enable");

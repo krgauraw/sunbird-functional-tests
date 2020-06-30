@@ -29,16 +29,16 @@ public class TestSetupUtil {
             File file = new File(mainDir +"/"+ dir);
             file.mkdir();
             if (file.isDirectory()) {
-                File responseFile = new File(file.getPath() + "/" + "response.json");
-                File requestFile = new File(file.getPath() + "/" + "request.json");
-                File validateFile = new File(file.getPath() + "/" + "validate.json");
+//                File responseFile = new File(file.getPath() + "/" + "response.json");
+//                File requestFile = new File(file.getPath() + "/" + "request.json");
+//                File validateFile = new File(file.getPath() + "/" + "validate.json");
                 try {
-                    if (!responseFile.exists())
-                        responseFile.createNewFile();
-                    if (!requestFile.exists())
-                        requestFile.createNewFile();
-                    if (!validateFile.exists())
-                        validateFile.createNewFile();
+//                    if (!responseFile.exists())
+//                        responseFile.createNewFile();
+//                    if (!requestFile.exists())
+//                        requestFile.createNewFile();
+//                    if (!validateFile.exists())
+//                        validateFile.createNewFile();
                     populateDataIntoValidateFiles(mainDir, dir, validationFileName, dirIdMap.get(dir));
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -53,7 +53,13 @@ public class TestSetupUtil {
         if (file.isDirectory()) {
             try {
                 FileWriter fileWriter = new FileWriter(file.getPath() + "/" + fileName);
-                HttpResponse<String> jsonNode = Unirest.get(AppConfig.config.getString("kp_base_uri") + "/content/v3/read/" + contentId + "").asString();
+//                HttpResponse<String> jsonNode = Unirest.get(AppConfig.config.getString("kp_base_uri") + "/content/v3/read/" + contentId + "").asString();
+
+//               HttpResponse<String> jsonNode = Unirest.get(AppConfig.config.getString("kp_base_uri") + "/content/v3/hierarchy/" + contentId).asString();
+
+                HttpResponse<String> jsonNode = Unirest.get(AppConfig.config.getString("kp_base_uri") + "/content/v3/hierarchy/" + contentId + "?mode=edit").asString();
+
+                //kp_content_service_base_uri
                 Response response = objectMapper.readValue(jsonNode.getBody(), Response.class);
                 fileWriter.write(formGeneralAssertions(response));
                 fileWriter.close();
@@ -78,6 +84,20 @@ public class TestSetupUtil {
                     .replaceAll("\"s3Key\"\\W?:\\W\"[a-zA-Z:/._0-9-]+\"","\"s3Key\" : \"@ignore@\"")
                     .replaceAll("\"appId\"\\W?:\\W?\"[a-zA-Z.-]+\"","\"appId\" : \"@ignore@\"")
                     .replaceAll("\"consumerId\"\\W?:\\W?\"[a-zA-Z0-9-]+\"","\"consumerId\" : \"@ignore@\"")
+                    .replaceAll("\"versionKey\"\\W?:\\W\"\\d+\"","\"versionKey\" : \"@ignore@\"")
+                    .replaceAll("\"pkgVersion\"\\W?:\\W\\d+\\.\\d+","\"pkgVersion\" : \"@isNumber()@\"")
+                    .replaceAll("\"parent\"\\W?:\\W\"[a-zA-Z://._0-9-]+\"","\"parent\" : \"@ignore@\"")
+                    .replaceAll("\"size\"\\W?:\\W\\d+\\.\\d+","\"size\" : \"@isNumber()@\"")
+                    .replaceAll("\"totalCompressedSize\"\\W?:\\W\\d+\\.\\d+","\"totalCompressedSize\" : \"@isNumber()@\"")
+                    .replaceAll("\"childNodes\"\\W?:\\W\\[[^\\[]*\\]+","\"childNodes\" : \"@ignore@\"")
+                    .replaceAll("\"toc_url\"\\W?:\\W\"[a-zA-Z://._0-9-]+\"","\"toc_url\" : \"@ignore@\"")
+                    .replaceAll("\"leafNodes\"\\W?:\\W\\[[^\\[]*\\]+","\"leafNodes\" : \"@ignore@\"")
+                    .replaceAll("\"version\"\\W?:\\W\\d+","\"version\" : \"@isNumber()@\"")
+                    .replaceAll("\"compatibilityLevel\"\\W?:\\W\\d+","\"compatibilityLevel\" : \"@isNumber()@\"")
+                    .replaceAll("\"leafNodesCount\"\\W?:\\W\\d+","\"leafNodesCount\" : \"@isNumber()@\"")
+                    .replaceAll("\"mimeTypesCount\"\\W?:\\W\\{([^}]+)\\}+","\"mimeTypesCount\" : \"@ignore@\"")
+                    .replaceAll("\"contentTypesCount\"\\W?:\\W\\{([^}]+)\\}+","\"contentTypesCount\" : \"@ignore@\"")
+                    .replaceAll("\"errmsg\"\\W?:\\W\\[a-zA-Z0-9-]+","\"errmsg\" : \"@ignore@\"");
                     .replaceAll("kp_ft_\\d+","\\${identifier}")
                     .replaceAll("KP_FT_\\d+","\\${identifier}")
                     .replaceAll("kp_ft_license_\\d+", "\\${identifier}")

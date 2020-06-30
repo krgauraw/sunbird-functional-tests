@@ -37,8 +37,15 @@ public class WorkflowConstants {
             "\"collectionUnitsInDraft\":[\"Update\"],\n" +
             "\"collectionUnitsInLive\":[\"Update\", \"Publish\"],\n" +
             "\"collectionRead\":[\"Update\", \"Publish\"],\n" +
-            "\"collectionUnitsResourcesInDraft\":[\"CreateResources\", \"Update\"]\n" +
+            "\"collectionUnitsResourcesInDraft\":[\"CreateResources\", \"Update\"],\n" +
+            "\"collectionCreate\":[\"Create\"],\n"+
+            "\"collectionReview\":[\"Update\", \"Review\"],\n"+
+            "\"collectionRetire\":[\"Retire\"],\n"+
+            "\"collectionInFlagged\":[\"Update\", \"Publish\", \"Get\", \"Flag\"],\n"+
+            "\"contentInFlagDraft\" :  [\"Update\", \"Publish\", \"Get\", \"Flag\", \"AcceptFlag\"],\n" +
+            "\"contentInFlagReject\" :  [\"Update\", \"Publish\", \"Get\", \"Flag\", \"RejectFlag\"],\n" +
+            "\"collectionDiscarded\":[\"Discard\"],\n"+
+            "\"collectionUnitsInLiveUpdate\":[\"Update\", \"Publish\", \"Update\"]\n" +
             "}";
-
 }
 

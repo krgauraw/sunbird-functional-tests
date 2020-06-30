@@ -1,0 +1,14 @@
+{
+  "id": "api.content.hierarchy.get",
+  "ver": "3.0",
+  "ts": "@matchesDatePattern('yyyy-MM-dd')@",
+  "params": {
+    "resmsgid": "@ignore@",
+    "msgid": null,
+    "err": "RESOURCE_NOT_FOUND",
+    "status": "failed",
+    "errmsg": "@ignore@"
+  },
+  "responseCode": "RESOURCE_NOT_FOUND",
+  "result": {}
+}

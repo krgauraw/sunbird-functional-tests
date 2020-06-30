@@ -48,20 +48,23 @@ public class CollectionUtil {
      */
     public static Map<String, Object> prepareTestCollection(String workFlow, BaseCitrusTestRunner runner, Map<String, String> payloadMap, String collectionType,
                                                             Integer assetCount, Integer resourceCount, String mimeType) {
-        String updateHierarchyPayload = payloadMap.get("updateHierarchy");
+        String updateHierarchyPayload = null;
         Map<String, Object> collectionMap = new HashMap<>();
-        if (assetCount != 0) {
-            List<String> assetIds = getLiveAsset(runner, assetCount, mimeType);
-            for (String assetId : assetIds) {
-                collectionMap.put("asset_" + (assetIds.indexOf(assetId) + 1), assetId);
-                updateHierarchyPayload = updateHierarchyPayload.replace("asset_" + (assetIds.indexOf(assetId) + 1), assetId);
+        if(!StringUtils.isEmpty(payloadMap.get("updateHierarchy"))) {
+            updateHierarchyPayload = payloadMap.get("updateHierarchy");
+            if (assetCount != 0) {
+                List<String> assetIds = getLiveAsset(runner, assetCount, mimeType);
+                for (String assetId : assetIds) {
+                    collectionMap.put("asset_" + (assetIds.indexOf(assetId) + 1), assetId);
+                    updateHierarchyPayload = updateHierarchyPayload.replace("asset_" + (assetIds.indexOf(assetId) + 1), assetId);
+                }
             }
-        }
-        if (resourceCount != 0) {
-            List<String> resourceIds = getLiveResources(runner, resourceCount, mimeType, payloadMap.get("createResource"));
-            for (String resourceId : resourceIds) {
-                collectionMap.put("resource_" + (resourceIds.indexOf(resourceId) + 1), resourceId);
-                updateHierarchyPayload = updateHierarchyPayload.replace("resource_" + (resourceIds.indexOf(resourceId) + 1), resourceId);
+            if (resourceCount != 0) {
+                List<String> resourceIds = getLiveResources(runner, resourceCount, mimeType, payloadMap.get("createResource"));
+                for (String resourceId : resourceIds) {
+                    collectionMap.put("resource_" + (resourceIds.indexOf(resourceId) + 1), resourceId);
+                    updateHierarchyPayload = updateHierarchyPayload.replace("resource_" + (resourceIds.indexOf(resourceId) + 1), resourceId);
+                }
             }
         }
         collectionMap.putAll(ContentUtil.createCollectionContent(runner, null, collectionType, null));
@@ -120,5 +123,4 @@ public class CollectionUtil {
         });
         return assetIds;
     }
-
 }
